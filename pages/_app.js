@@ -1,6 +1,8 @@
 import Head from "next/head";
+import { Link } from "next/link";
 
 import '../styles/globals.css'
+import '../styles/footer.css'
 
 function MyApp({ Component, pageProps }) {
   return (
