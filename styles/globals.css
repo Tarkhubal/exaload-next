@@ -1,4 +1,30 @@
+/* Menu
+ * Commons : ./globals.css:6
+ *
+ */
+
 html {
     background-color: #333333;
     color: #FFFFFF;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 95vw;
+    height: 140pt;
+    top: 0;
+    bottom: 0;
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 105pt;
+    text-align: center;
+    user-select: none;
 }
