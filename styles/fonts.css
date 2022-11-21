@@ -30,3 +30,9 @@
     font-family: Geffry;
     src: url(../public/fonts/GeffryRegular.ttf)
 }
+
+@font-face {
+    font-family: Aquire;
+    font-weight: bold;
+    src: url(../public/fonts/AquireBold-8Ma60.ttf)
+}

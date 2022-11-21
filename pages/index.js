@@ -21,9 +21,9 @@ export default function Home() {
           </defs>
         </svg>
       </section>
-      <Link href="/pricing">Test</Link>
-
-      <Script src="/js/anim-text-flow.js"></Script>
+      <section class="home_page_content">
+        <Link href="/pricing">Test</Link>
+      </section>
     </>
   )
 }

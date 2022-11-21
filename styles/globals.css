@@ -23,8 +23,39 @@ html {
     position: absolute;
     width: 100%;
     display: inline-block;
-    font-family: "Raleway", sans-serif;
+    font-family: Aquire;
     font-size: 105pt;
     text-align: center;
     user-select: none;
+}
+
+.home_page_content {
+    margin-top: 100vh;
+}
+
+.login-button {
+    background-color: #555555;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+    margin-top: 20px;
+    margin-right: 10px;
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    box-shadow: 0 0 0.5em black;
+}
+
+.login-button:hover {
+    background-color: #888888;
+    box-shadow: 0 0 0.5em white;
+}
+
+.login-button-img {
+    margin-top: 10px;
+    margin-right: 1px;
 }
