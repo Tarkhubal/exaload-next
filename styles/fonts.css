@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,100);
+@import url(https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:wght@100);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@300);
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;700);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Knewave);
+@font-face {
+    font-family: LemonMilk;
+    src: url(../public/fonts/LemonMilkLight.ttf);
+}
+
+@font-face {
+    font-family: AstroSpace;
+    src: url(../public/fonts/AstroSpace.ttf);
+}
+
+@font-face {
+    font-family: HeyOctober;
+    src: url(../public/fonts/HeyOctober.ttf)
+}
+
+@font-face {
+    font-family: Geffry;
+    src: url(../public/fonts/GeffryRegular.ttf)
+}
+
+@font-face {
+    font-family: Aquire;
+    font-weight: bold;
+    src: url(../public/fonts/AquireBold-8Ma60.ttf)
+}
