@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section>
+      <section class="main-content">
         <div id="container">
           <span id="text1"></span>
           <span id="text2"></span>
@@ -22,7 +22,7 @@ export default function Home() {
         </svg>
       </section>
       <section class="home_page_content">
-        <Link href="/pricing">Test</Link>
+        
       </section>
     </>
   )
