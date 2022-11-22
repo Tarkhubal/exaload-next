@@ -23,6 +23,13 @@ function MyApp({ Component, pageProps }) {
         </div>
       </Link>
 
+      <Link href="/settings">
+        <div class="settings-button" align="center" title="Paramètres">
+          <Image class="settings-button-img" width="55" height="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/parametres-cog-origin.png?v=1662620104055" alt="Settings button"/>
+        </div>
+      </Link>
+
+      <script src="https://exaload.glitch.me/data/commons/nav/script.js"></script>
 
       <Component {...pageProps} />
 
