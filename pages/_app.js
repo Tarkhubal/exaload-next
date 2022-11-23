@@ -105,22 +105,24 @@ function MyApp({ Component, pageProps }) {
                     </div>
                   </div>
                 </Link>
-                <div className="card">
-                  <div className="card-content">
-                    <div className="card-image">
-                      <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
-                    </div>
-                    <div className="card-info-wrapper">
-                      <div className="card-info">
-                        <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
-                        <div className="card-info-title">
-                          <h3>Un titre</h3>
-                          <h4>Une description</h4>
+                <Link href="https://www.tiktok.com/@exaload">
+                  <div className="card">
+                    <div className="card-content">
+                      <div className="card-image">
+                        <Image alt="no img" width="1024" height="1024" src="/assets/tiktok-logo.png" />
+                      </div>
+                      <div className="card-info-wrapper">
+                        <div className="card-info">
+                          <Image alt="no img" width="512" height="512" src="/assets/tiktok-logo.png" />
+                          <div className="card-info-title">
+                            <h3>Notre TikTok</h3>
+                            <h4>Une description</h4>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
                 <div className="card">
                   <div className="card-content">
                     <div className="card-image">
