@@ -1,9 +1,11 @@
 import Script from "next/script";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
+    <div id="gloweffect"></div>
       <section class="main-content">
         <div id="container">
           <span id="text1"></span>
@@ -21,8 +23,10 @@ export default function Home() {
           </defs>
         </svg>
       </section>
-      <section class="home_page_content">
-        
+      <section className="home_page_content">
+        <div className="home-arrow-1">
+          <Image width="600" height="600" alt="arrow1" src="/assets/home-arrow-1.svg" />
+        </div>
       </section>
     </>
   )
