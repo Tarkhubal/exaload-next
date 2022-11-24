@@ -38,7 +38,6 @@ html {
     top: 0;
     bottom: 0;
     filter: url(#threshold) blur(0.6px);
-    z-index: 100;
 }
 
 #text1,

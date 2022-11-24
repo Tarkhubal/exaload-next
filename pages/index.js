@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <div id="gloweffect"></div>
+      <div id="gloweffect"></div>
       <section class="main-content">
         <div id="container">
           <span id="text1"></span>
@@ -16,9 +16,9 @@ export default function Home() {
             <filter id="threshold">
               <feColorMatrix in="SourceGraphic" type="matrix"
                 values="1 0 0 0 0
-									                0 1 0 0 0
-								                  0 0 1 0 0
-									                0 0 0 255 -140"/>
+									      0 1 0 0 0
+							          0 0 1 0 0
+				                0 0 0 255 -140"/>
             </filter>
           </defs>
         </svg>
