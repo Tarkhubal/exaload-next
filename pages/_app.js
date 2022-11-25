@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
       <nav className="side-nav">
         <div className="wrapper">
           <div id="nav-button-menu" className="nav-bloc n-1">
-            <Link className="nav" href="/">
+            <Link href="/">
               <Image alt="Logo box" className="nav-img" width="1024" height="1024" src="/favicon.ico" />
             </Link>
             <div className="sub-nav">
@@ -148,7 +148,9 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-games" className="nav-bloc n-2">
-            <Image alt="Games box" className="nav-img" width="1024" height="1024" onclick="window.location.href='/games'" src="/assets/games.png" />
+            <Link href="/games">
+              <Image alt="Games box" className="nav-img" width="1024" height="1024" src="/assets/games.png" />
+            </Link>
             <div className="sub-nav">
               <Link className="nav" href="/games">
                 <h2>Jeux</h2>
@@ -254,7 +256,9 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-series" className="nav-bloc n-3">
-            <Image alt="Movies box" className="nav-img" width="1024" height="1024" onclick="window.location.href='https://exaload.glitch.me/uc/'" src="/assets/movies.png" />
+            <Link href="/movies">
+              <Image alt="Movies box" className="nav-img" width="1024" height="1024" src="/assets/movies.png" />
+            </Link>
             <div className="sub-nav">
               <Link className="nav" href="https://exaload.glitch.me/uc/">
                 <h2>Films</h2>
@@ -360,7 +364,9 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-series" className="nav-bloc n-4">
-            <Image alt="Series box" className="nav-img" width="1024" height="1024" onclick="window.location.href='https://exaload.glitch.me/uc/'" src="/assets/series.png" />
+            <Link href="/series">
+              <Image alt="Series box" className="nav-img" width="1024" height="1024" src="/assets/series.png" />
+            </Link>
             <div className="sub-nav">
               <Link className="nav" href="https://exaload.glitch.me/uc/">
                 <h2>Séries</h2>
@@ -466,7 +472,9 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-musics" className="nav-bloc n-5">
-            <Image alt="Musics box" className="nav-img" width="1024" height="1024" onclick="window.location.href='https://exaload.glitch.me/musics'" src="/assets/musics.png" />
+            <Link href="/musics">
+              <Image alt="Musics box" className="nav-img" width="1024" height="1024" src="/assets/musics.png" />
+            </Link>
             <div className="sub-nav">
               <Link className="nav" href="https://exaload.glitch.me/musics">
                 <h2>Musiques</h2>
@@ -572,7 +580,9 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-apps" className="nav-bloc n-6">
-            <Image alt="Apps box" className="nav-img" width="1024" height="1024" onclick="window.location.href='https://exaload.glitch.me/uc/'" src="/assets/apps.png" />
+            <Link href="/apps">
+              <Image alt="Apps box" className="nav-img" width="1024" height="1024" src="/assets/apps.png" />
+            </Link>
             <div className="sub-nav">
               <Link className="nav" href="https://exaload.glitch.me/uc/">
                 <h2>Applications</h2>
