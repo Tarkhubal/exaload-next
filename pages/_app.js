@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css' />
         <title>Exaload</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
@@ -27,9 +28,11 @@ function MyApp({ Component, pageProps }) {
       <nav className="side-nav">
         <div className="wrapper">
           <div id="nav-button-menu" className="nav-bloc n-1">
-            <Image alt="Logo box" className="nav-img" width="1024" height="1024" onclick="window.location.href='https://exaload.glitch.me'" src="/favicon.ico" />
+            <Link className="nav" href="/">
+              <Image alt="Logo box" className="nav-img" width="1024" height="1024" src="/favicon.ico" />
+            </Link>
             <div className="sub-nav">
-              <Link className="nav" href="https://exaload.glitch.me">
+              <Link className="nav" href="/">
                 <h2>Nos Réseaux Sociaux</h2>
               </Link>
               <div id="cards">
@@ -142,27 +145,6 @@ function MyApp({ Component, pageProps }) {
                   </div>
                 </Link>
               </div>
-
-              <ul>
-                <Link className="nav" target="_blank" href="https://www.youtube.com/channel/UCgA-oZcSCmG8ggg4RU99pLg">
-                  <li>YouTube</li>
-                </Link>
-                <Link className="nav" target="_blank" href="https://discord.com/invite/2FjfpXavSF">
-                  <li>Discord</li>
-                </Link>
-                <Link className="nav" target="_blank" href="https://twitter.com/exa_load">
-                  <li>Twitter</li>
-                </Link>
-                <Link className="nav" target="_blank" href="https://instagram.com/exaload">
-                  <li>Instagram</li>
-                </Link>
-                <Link className="nav" target="_blank" href="https://www.tiktok.com/@exaload">
-                  <li>TikTok</li>
-                </Link>
-                <Link className="nav" target="_blank" href="https://www.reddit.com/r/exaload/">
-                  <li>Reddit</li>
-                </Link>
-              </ul>
             </div>
           </div>
           <div id="nav-button-games" className="nav-bloc n-2">
@@ -758,7 +740,6 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </footer>
-      <Script src="/js/anim-text-flow.js"></Script>
     </>
   )
 }

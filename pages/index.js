@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div id="gloweffect"></div>
       <section class="main-content">
         <div id="container">
           <span id="text1"></span>
@@ -22,6 +21,7 @@ export default function Home() {
             </filter>
           </defs>
         </svg>
+        <Script src="/js/anim-text-flow.js"></Script>
       </section>
       <section className="home_page_content">
         <div className="home-arrow-1">
