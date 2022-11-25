@@ -1,6 +1,6 @@
 {
   "name": "exaload-next",
-  "version": "0.0.1",
+  "version": "dev_0.0.13_a1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,5 +15,6 @@
     "next.js": "^1.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  }
+  },
+  "license": "Private"
 }

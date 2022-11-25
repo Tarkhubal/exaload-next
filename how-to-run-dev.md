@@ -6,7 +6,7 @@
 # First, install yarn :
 npm install -g yarn
 
-# Then, install dependencies :
+# Then add next.js to yarn :
 yarn add next.js
 
 # And run the dev mod :
