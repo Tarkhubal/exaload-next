@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <section class="main-content">
+      <section className="main-content">
         <div id="container">
           <span id="text1"></span>
           <span id="text2"></span>

@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css' />
         <title>Exaload</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
@@ -156,7 +155,7 @@ function MyApp({ Component, pageProps }) {
                 <h2>Jeux</h2>
               </Link>
               <div id="cards">
-                <div className="card" onclick="window.location.href='https://exaload.glitch.me'">
+                <div className="card" onClick="window.location.href='https://exaload.glitch.me'">
                   <div className="card-content">
                     <div className="card-image">
                       <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
@@ -264,7 +263,7 @@ function MyApp({ Component, pageProps }) {
                 <h2>Films</h2>
               </Link>
               <div id="cards">
-                <div className="card" onclick="window.location.href='https://exaload.glitch.me'">
+                <div className="card" onClick="window.location.href='https://exaload.glitch.me'">
                   <div className="card-content">
                     <div className="card-image">
                       <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
@@ -372,7 +371,7 @@ function MyApp({ Component, pageProps }) {
                 <h2>Séries</h2>
               </Link>
               <div id="cards">
-                <div className="card" onclick="window.location.href='https://exaload.glitch.me'">
+                <div className="card" onClick="window.location.href='https://exaload.glitch.me'">
                   <div className="card-content">
                     <div className="card-image">
                       <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
@@ -480,7 +479,7 @@ function MyApp({ Component, pageProps }) {
                 <h2>Musiques</h2>
               </Link>
               <div id="cards">
-                <div className="card" onclick="window.location.href='https://exaload.glitch.me'">
+                <div className="card" onClick="window.location.href='https://exaload.glitch.me'">
                   <div className="card-content">
                     <div className="card-image">
                       <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />
@@ -588,7 +587,7 @@ function MyApp({ Component, pageProps }) {
                 <h2>Applications</h2>
               </Link>
               <div id="cards">
-                <div className="card" onclick="window.location.href='https://exaload.glitch.me'">
+                <div className="card" onClick="window.location.href='https://exaload.glitch.me'">
                   <div className="card-content">
                     <div className="card-image">
                       <Image alt="no img" width="1024" height="1024" src="/assets/no-img-available.jpg" />

@@ -1,7 +1,7 @@
 {
   "name": "exaload-next",
-  "version": "dev_0.0.13_a2",
-  "private": true,
+  "version": "dev_0.0.13_a3",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
