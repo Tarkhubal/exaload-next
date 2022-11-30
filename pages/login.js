@@ -6,9 +6,9 @@ import Head from "next/head";
 export default function Home() {
     return (
         <>
-        <Head>
-            <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css' />
-        </Head>
+            <Head>
+                <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css' />
+            </Head>
             <section className="login-content">
                 <div className="login-bg"></div>
                 <div className="login-container">
