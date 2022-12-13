@@ -15,14 +15,14 @@ export default function Home() {
                     </div>
 
                     <div class="slider-controls">
-                        <span class="bx bxs-chevron-left prev" onclick="changeSlide(-1)"></span>
-                        <span class="bx bxs-chevron-right next" onclick="changeSlide(1)"></span>
+                        <span class="bx bxs-chevron-left prev" onClick="changeSlide(-1)"></span>
+                        <span class="bx bxs-chevron-right next" onClick="changeSlide(1)"></span>
                     </div>
 
                     <div class="slider-indicators">
-                        <span onclick="moveTo(1)"></span>
-                        <span onclick="moveTo(2)"></span>
-                        <span onclick="moveTo(3)"></span>
+                        <span onClick="moveTo(1)"></span>
+                        <span onClick="moveTo(2)"></span>
+                        <span onClick="moveTo(3)"></span>
                     </div>
 
                     <div class="slider-content">
