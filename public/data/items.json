@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Titre du jeu 1",
+        "description": "Description du jeu 1...",
+        "link": "/assets/spirit-of-the-north.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Titre du jeu 2",
+        "description": "Description du jeu 2...",
+        "link": "/assets/restless-soul.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Titre du jeu 3",
+        "description": "Description du jeu 3...",
+        "link": "/assets/shadowofthetombraiderdefinitiveedition.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Titre du jeu 4",
+        "description": "Description du jeu 4...",
+        "link": "/assets/gta-v.jpg"
+    }
+]

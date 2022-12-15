@@ -679,7 +679,6 @@ body {
 
 .product-carousel .product-image {
     align-self: flex-start;
-    width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 0.6em black;
     margin-top: 0.6em;
@@ -773,7 +772,6 @@ i {
 
 
 /** SLICK SLIDER CSS **/
-
 
 /* Slider */
 
