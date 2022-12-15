@@ -7,470 +7,470 @@ export default function Home() {
         <>
             <section className="main-content">
 
-                <div class="slider">
-                    <div class="slider-items">
-                        <Image width="1024" height="1024" class="slider-item" src="/assets/01.jpg" alt="img 1" />
-                        <Image width="1024" height="1024" class="slider-item" src="/assets/02.jpg" alt="img 2" />
-                        <Image width="1024" height="1024" class="slider-item" src="/assets/03.jpg" alt="img 3" />
+                <div className="slider">
+                    <div className="slider-items">
+                        <Image width="1024" height="1024" className="slider-item" src="/assets/01.jpg" alt="img 1" />
+                        <Image width="1024" height="1024" className="slider-item" src="/assets/02.jpg" alt="img 2" />
+                        <Image width="1024" height="1024" className="slider-item" src="/assets/03.jpg" alt="img 3" />
                     </div>
 
-                    <div class="slider-controls">
-                        <span class="bx bxs-chevron-left prev" onClick="changeSlide(-1)"></span>
-                        <span class="bx bxs-chevron-right next" onClick="changeSlide(1)"></span>
+                    <div className="slider-controls">
+                        <span className="bx bxs-chevron-left prev" onClick="changeSlide(-1)"></span>
+                        <span className="bx bxs-chevron-right next" onClick="changeSlide(1)"></span>
                     </div>
 
-                    <div class="slider-indicators">
+                    <div className="slider-indicators">
                         <span onClick="moveTo(1)"></span>
                         <span onClick="moveTo(2)"></span>
                         <span onClick="moveTo(3)"></span>
                     </div>
 
-                    <div class="slider-content">
+                    <div className="slider-content">
                         <h3>Ocean View</h3>
                         <h3>Green Valley</h3>
                         <h3>Lake Reflection</h3>
                     </div>
 
                 </div>
-                <div class="menu-wrapper games-table" id="new-games">
-                    <h2 class="news-title">Nouveautés :</h2>
+                <div className="menu-wrapper games-table" id="new-games">
+                    <h2 className="news-title">Nouveautés :</h2>
                 </div>
 
-                <div class="product-carousel">
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                            <div class="product-name">
+                <div className="product-carousel">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
 
-                            <div class="product-name">
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
-                    <div class="product">
-                        <div class="product-top">
-                            <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/gta-v.jpg" />
-                            <div class="product-name">
+                    <div className="product">
+                        <div className="product-top">
+                            <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/gta-v.jpg" />
+                            <div className="product-name">
                                 <p>Game name here</p>
                             </div>
                         </div>
-                        <div class="product-bottom">
-                            <p class="product-prices">
-                                <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                        <div className="product-bottom">
+                            <p className="product-prices">
+                                <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                             </p>
-                            <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                            <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="games-table" id="reduction-games">
-                    <h2 class="promo-title">Jeux en promotion :</h2>
+                <div className="games-table" id="reduction-games">
+                    <h2 className="promo-title">Jeux en promotion :</h2>
 
-                    <div class="product-carousel">
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                <div class="product-name">
+                    <div className="product-carousel">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
 
-                                <div class="product-name">
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
-                        <div class="product">
-                            <div class="product-top">
-                                <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/gta-v.jpg" />
-                                <div class="product-name">
+                        <div className="product">
+                            <div className="product-top">
+                                <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/gta-v.jpg" />
+                                <div className="product-name">
                                     <p>Game name here</p>
                                 </div>
                             </div>
-                            <div class="product-bottom">
-                                <p class="product-prices">
-                                    <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                            <div className="product-bottom">
+                                <p className="product-prices">
+                                    <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                 </p>
-                                <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                             </div>
                         </div>
 
 
                     </div>
-                    <div class="games-table" id="best-sells">
-                        <h2 class="bestsellers-title">Meilleures ventes :</h2>
+                    <div className="games-table" id="best-sells">
+                        <h2 className="bestsellers-title">Meilleures ventes :</h2>
 
-                        <div class="product-carousel">
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                                    <div class="product-name">
+                        <div className="product-carousel">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
 
-                                    <div class="product-name">
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg"/>
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg"/>
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/restless-soul.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/restless-soul.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg"/>
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/shadowofthetombraiderdefinitiveedition.jpg"/>
 
-                                    <div class="product-name">
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/spirit-of-the-north.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/spirit-of-the-north.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
-                            <div class="product">
-                                <div class="product-top">
-                                    <Image width="1024" height="1024" alt="game-img" class="product-image" src="/assets/gta-v.jpg" />
-                                    <div class="product-name">
+                            <div className="product">
+                                <div className="product-top">
+                                    <Image width="1024" height="1024" alt="game-img" className="product-image" src="/assets/gta-v.jpg" />
+                                    <div className="product-name">
                                         <p>Game name here</p>
                                     </div>
                                 </div>
-                                <div class="product-bottom">
-                                    <p class="product-prices">
-                                        <p class="price"><span class="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
+                                <div className="product-bottom">
+                                    <p className="product-prices">
+                                        <p className="price"><span className="reduction">-100 %</span>0<sup>00</sup>€ - Gratuit !</p>
                                     </p>
-                                    <div class="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
+                                    <div className="btn"><a href="https://exaload.glitch.me/games/information">Acheter maintenant !</a></div>
                                 </div>
                             </div>
 
@@ -478,6 +478,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <Script src="js/img-slider.js"></Script>
         </>
     )
 }

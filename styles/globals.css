@@ -2,6 +2,7 @@
  * Commons
  * HomePage
  * LoginPage
+ * Games page
  */
 
 /* Commons */
@@ -603,14 +604,17 @@ a {
 /* End login */
 
 /* Games page */
-.promo-title,
-.bestsellers-title {
-    margin-left: 30px;
-    border-top: 6px solid red;
+
+.games-table {
+    color: white;
+    font-family: "Maven Pro";
+    transition: all 0.25s ease-out;
 }
 
-.news-title {
-    margin-left: 30px;
+body {
+    background-color: #333333;
+    position: absolute;
+    inset: 0;
 }
 
 .games-table h2 {
@@ -1072,3 +1076,4 @@ i {
 }
 
 /* End games */
+
