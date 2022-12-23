@@ -5,7 +5,6 @@ import Image from "next/image";
 
 import '../styles/globals.css'
 import '../styles/footer.css'
-import '../styles/fonts.css'
 import '../styles/scrollbar.css'
 import '../styles/nav.css'
 
@@ -27,7 +26,7 @@ function MyApp({ Component, pageProps }) {
       <nav className="side-nav">
         <div className="wrapper">
           <div id="nav-button-menu" className="nav-bloc n-1">
-            <Link href="/">
+            <Link href="./">
               <Image alt="Logo box" className="nav-img" width="1024" height="1024" src="/favicon.ico" />
             </Link>
             <div className="sub-nav">
