@@ -24,28 +24,28 @@
 
 @font-face {
     font-family: LemonMilk;
-    src: url(../fonts/LemonMilkLight.ttf);
+    src: url(../public/fonts/LemonMilkLight.ttf);
 }
 
 @font-face {
     font-family: AstroSpace;
-    src: url(../fonts/AstroSpace.ttf);
+    src: url(../public/fonts/AstroSpace.ttf);
 }
 
 @font-face {
     font-family: HeyOctober;
-    src: url(../fonts/HeyOctober.ttf)
+    src: url(../public/fonts/HeyOctober.ttf)
 }
 
 @font-face {
     font-family: Geffry;
-    src: url(../fonts/GeffryRegular.ttf)
+    src: url(../public/fonts/GeffryRegular.ttf)
 }
 
 @font-face {
     font-family: Aquire;
     font-weight: bold;
-    src: url(../fonts/AquireBold-8Ma60.ttf)
+    src: url(../public/fonts/AquireBold-8Ma60.ttf)
 }
 
 
