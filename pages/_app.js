@@ -26,11 +26,11 @@ function MyApp({ Component, pageProps }) {
       <nav className="side-nav">
         <div className="wrapper">
           <div id="nav-button-menu" className="nav-bloc n-1">
-            <Link href="./">
+            <Link href="https://exaload-next.vercel.app/">
               <Image alt="Logo box" className="nav-img" width="1024" height="1024" src="/favicon.ico" />
             </Link>
             <div className="sub-nav">
-              <Link className="nav" href="/">
+              <Link className="nav" href="https://exaload-next.vercel.app/">
                 <h2>Nos Réseaux Sociaux</h2>
               </Link>
               <div id="cards">
@@ -146,11 +146,11 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
           <div id="nav-button-games" className="nav-bloc n-2">
-            <Link href="/games">
+            <Link href="https://exaload-next.vercel.app/games">
               <Image alt="Games box" className="nav-img" width="1024" height="1024" src="/assets/games.png" />
             </Link>
             <div className="sub-nav">
-              <Link className="nav" href="/games">
+              <Link className="nav" href="https://exaload-next.vercel.app/games">
                 <h2>Jeux</h2>
               </Link>
               <div id="cards">
