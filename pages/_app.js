@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Exaload</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="img/png" />
       </Head>
 
       <Link href="/login">

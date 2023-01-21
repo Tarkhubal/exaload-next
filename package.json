@@ -1,9 +1,9 @@
 {
   "name": "exaload-next",
-  "version": "dev_0.0.17",
+  "version": "dev_0.0.18a5",
   "private": false,
   "scripts": {
-    "dev": "next dev",
+    "dev": "start http://localhost:3000 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
